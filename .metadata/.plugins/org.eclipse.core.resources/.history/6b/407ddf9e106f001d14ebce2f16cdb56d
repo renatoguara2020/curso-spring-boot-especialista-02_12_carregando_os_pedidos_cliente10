@@ -1,0 +1,5 @@
+package com.example.testes_casa1.entity;
+
+public class Cliente {
+
+}

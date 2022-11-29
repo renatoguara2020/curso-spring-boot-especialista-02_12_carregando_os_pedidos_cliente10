@@ -1,0 +1,51 @@
+package com.example.testes_casa1;
+
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import com.example.testes.repository.Clientes;
+import com.example.testes_casa1.entity.Cliente;
+
+@SpringBootApplication
+public class TestesCasa1Application {
+	
+	 @Bean
+	    public CommandLineRunner init(
+	            @Autowired Clientes clientes
+	           
+	    ) {
+	        return args -> {
+	            System.out.println("Salvando clientes");
+	            Cliente fulano = new Cliente();
+	            clientes.save(fulano);
+
+	            
+
+	        };
+	    }
+
+	
+
+	
+	
+
+	public static void main(String[] args) {
+		SpringApplication.run(TestesCasa1Application.class, args);
+		
+		
+	}
+
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,25 @@
+package com.example.testes_casa1;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.testes.repository.Clientes;
+import com.example.testes_casa1.entity.Cliente;
+
+@SpringBootApplication
+public class TestesCasa1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TestesCasa1Application.class, args);
+	}
+
+	
+	@Autowired Clientes clientes;
+	
+	Cliente cliente = new Cliente();
+	
+	clientes.
+
+}

@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\xampp\htdocs\curso-spring-boot-especialista-02_12_carregando_os_pedidos_cliente\.metadata\.plugins\org.eclipse.jdt.core
+1912080302.index
+3973422204.index
+3435648363.index
+1865797976.index
+3501714628.index

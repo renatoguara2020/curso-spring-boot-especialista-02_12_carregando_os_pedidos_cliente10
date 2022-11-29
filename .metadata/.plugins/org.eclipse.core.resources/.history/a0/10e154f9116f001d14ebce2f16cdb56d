@@ -1,0 +1,7 @@
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.testes_casa1.entity.Cliente;
+
+public interface Clientes  extends JpaRepository<Cliente, Integer>{
+
+}
